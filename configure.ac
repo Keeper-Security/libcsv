@@ -3,6 +3,7 @@ AC_INIT([libcsv], [3.0.3], [rgamble99@gmail.com],
 AC_PREREQ([2.65])
 AM_INIT_AUTOMAKE([foreign])
 AC_PROG_CC
+CFLAGS="-fPIC ${CFLAGS}"
 
 LT_INIT
 
